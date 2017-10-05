@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+<Button
+    android:textColor="@android:color/white"
+    android:text="Button Ofline"
+  android:onClick="ofLine"
+    android:background="@color/colorPrimaryDark"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+<Button
+
+    android:textColor="@android:color/white"
+    android:text="Button Youtube"
+    android:onClick="yotube"
+    android:background="@color/colorPrimaryDark"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>
